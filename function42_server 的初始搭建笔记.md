@@ -52,6 +52,8 @@ public function up()
 
 进入 mysql 创建数据库 fun42db ，指令为 `create database fun42db;`
 
+注：进入 mysql ： `mysql -u root -p` ；修改 mysql 密码：`mysqladmin -u root -p password` ，不用进入 mysql 执行，不过这样可能不太安全吧。
+
 随后在 /function42_server 下执行 `php artisan migrate`
 
 再次进入 mysql ，在数据库 fun42db 下为表 counts 创建一条数据，指令为 `insert into counts (count_num) values (0);`

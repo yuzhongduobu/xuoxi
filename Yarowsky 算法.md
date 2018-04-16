@@ -12,3 +12,19 @@ Yarowsky 算法是一个非监督的学习算法，用于词义消歧 (WSD, word
 
 在 predicate-argument relationship 中，词语的影响相比于以和目标词相同的距离随意组合要更强。有内容词 (content words) 的搭配词组的影响要比有功能词 (function words) 的更强。
 
+
+
+以上知，通过语料库，搭配词组可以与目标词有不同搭配关系。这可以提供一种词语区分评级 (word different rankings) 或者更甚给出区分分类 (different classifications)。
+
+另外 (Alternatively) ，这一工作可以通过对每一分类明确(identifying) 一个单独定义搭配来完成，并且只对那些包含其中一个定义词 (defining words) 的上下文 (contexts) 来使用种子 (seeds) 。
+
+
+
+一个公开可用的数据库 [WordNet](https://www.wikiwand.com/en/WordNet) 可被用于作为一个定义措辞 (terms) 的自动源 (automatic source) 。
+
+
+
+除此外，那些出现在目标词附近的有很大频率的词会被分别选为搭配代表种子 (seed collocations representative) 。这一方法并非完全自动化，一个人类判断 (human judge) 应当决定哪一个词将被选为各目标词的意义，输出将成为意义的可信指标 (reliable indicators of the senses) 。
+
+
+

@@ -118,7 +118,7 @@ databases:
 ```
 folders:
     - map: E:/laravel_code
-      to: /home/vagrant/Code
+      to: /home/vagrant/code
 ```
 
 把代码文件位置和虚拟机中共享文件位置设成 E 盘下的 laravel_code
