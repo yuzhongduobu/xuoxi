@@ -145,7 +145,7 @@ Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-112-generic x86_64)
 
 ## 八. 创建名为 test 的 laravel 项目
 
-首先一个 `vagrant up` 登上虚拟机，然后准备用 composer 来创建一个 laravel 项目
+首先一个 `vagrant ssh` 登上虚拟机，然后准备用 composer 来创建一个 laravel 项目
 
 ```
 composer create-project laravel/laravel test --prefer-dist
