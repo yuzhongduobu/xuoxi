@@ -73,7 +73,7 @@ vagrant ssh
 进入项目根目录执行 `composer install`
 
 **可能**出现 没有PHP Idap扩展 的报错
-!(https://github.com/yuzhongduobu/xuoxi/blob/master/1550905480623.png?raw=true)
+![111](https://github.com/yuzhongduobu/xuoxi/blob/master/1550905480623.png?raw=true)
 
   Homestead 下 php 安装 ldap 扩展
 
