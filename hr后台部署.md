@@ -145,10 +145,9 @@ npm run watch //实现前端js预览编译
 ```
 
 如果npm install出现错误，可以试试以下方法，更换为淘宝镜像
-!(https://github.com/yuzhongduobu/xuoxi/blob/master/1550906854491.png?raw=true)
+![1550906854492](https://github.com/yuzhongduobu/xuoxi/blob/master/1550906854491.png?raw=true)
 
 ![1550906854491](https://github.com/yuzhongduobu/xuoxi/blob/master/1550906806910.png?raw=true)
-
 
 
 然后再执行npm run watch
