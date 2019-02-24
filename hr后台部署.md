@@ -138,7 +138,7 @@ php artisan db:seed
 
 #### 7.进行开发
 
-在本地cmd进入**前端**项目文件夹根目录
+在本地cmd进入项目文件夹根目录
 
 ```
 npm install
@@ -155,4 +155,4 @@ npm run watch //实现前端js预览编译
 
 在chrome地址栏输入hr.server，看看能否访问成功，如果不行就重启电脑（可能是hosts文件没有生效），
 
-虚拟机只需执行vagrant up和vagrant ssh,本地的**前端**项目根目录执行npm run watch
+虚拟机只需执行vagrant up和vagrant ssh,本地的项目根目录执行npm run watch
