@@ -72,7 +72,7 @@ vagrant ssh
 
 进入项目根目录执行 `composer install`
 
-**可能**出现 没有PHP Idap扩展 的报错
+**可能**出现 没有PHP Idap扩展 的报错，如图所示
 ![111](https://github.com/yuzhongduobu/xuoxi/blob/master/1550905480623.png?raw=true)
 
   Homestead 下 php 安装 ldap 扩展
@@ -113,7 +113,7 @@ php artisan key:generate
 php artisan migrate
 ```
 
-**可能**出现移植错误的情况
+**可能**出现以下移植错误的情况
 
 ![1550905834486](https://github.com/yuzhongduobu/xuoxi/blob/master/1550905834486.png?raw=true)
 
@@ -145,7 +145,7 @@ npm install
 npm run watch //实现前端js预览编译
 ```
 
-如果npm install出现错误，可以试试以下方法，更换为淘宝镜像
+如果npm install出现图示错误，可以试试以下方法，更换为淘宝镜像
 ![1550906854492](https://github.com/yuzhongduobu/xuoxi/blob/master/1550906854491.png?raw=true)
 
 ![1550906854491](https://github.com/yuzhongduobu/xuoxi/blob/master/1550906806910.png?raw=true)
