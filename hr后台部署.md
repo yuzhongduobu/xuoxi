@@ -18,15 +18,15 @@ git remote add origin https://git.coding.net/SadCreeper/uestc-hr-server.git
 
 #### 2.修改.env文件
 
-进入项目执行 `cp .env.example .env` ，打开 .env 修改如下
+进入项目执行 `cp .env.example .env` ，打开 .env ,按照自己数据库的情况填写
 
 ```php
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=hrdb
-DB_USERNAME=hr
-DB_PASSWORD=happy
+DB_DATABASE= //此处填写数据库名
+DB_USERNAME= //此处填写数据库账号名
+DB_PASSWORD= //此处填写数据库密码
 ```
 
 #### 2.1修改homestead.yaml文件、
